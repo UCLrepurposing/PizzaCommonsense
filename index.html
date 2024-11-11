@@ -60,8 +60,7 @@
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Antonis Bikakis</a><sup></sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Luke Dickens</a>
-                  </span>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Luke Dickens</a>,</span>
                   <span class="author-block">
                   <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Anthony Hunter</a><sup></sup>,</span>
                   <span class="author-block">
@@ -78,7 +77,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://anthology.aclweb.org/2024.findings-emnlp.728/" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -87,20 +86,10 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/UCLrepurposing/PizzaCommonsense/tree/main/PizzaCommonsense" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -111,7 +100,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2401.06930" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -128,22 +117,6 @@
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -153,7 +126,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Understanding procedural texts, such as cooking recipes, is essential for enabling machines to follow instructions and reason about tasks, a key aspect of intelligent reasoning. In cooking, these instructions can be interpreted as a series of modifications to a food preparation. For a model to effectively reason about cooking recipes, it must accurately discern and understand the inputs and outputs of intermediate steps within the recipe. We present a new corpus of cooking recipes enriched with descriptions of intermediate steps that describe the input and output for each step. PizzaCommonsense serves as a benchmark for the reasoning capabilities of LLMs because it demands rigorous explicit input-output descriptions to demonstrate the acquisition of implicit commonsense knowledge, which is unlikely to be easily memorized. GPT-4 achieves only 26\% human-evaluated preference for generations, leaving room for future improvements.
           </p>
         </div>
       </div>
@@ -168,114 +141,72 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
+
+      <div class="item">
+        <h2 class="title">Motivation</h2>
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/img1.jpg" alt="MY ALT TEXT" />
+        <h3 class="subtitle has-text-centered">
+          PizzaCommonSense objective is: 
+          <p>‣ To show <b>Complete Process Understanding</b> and <b>Ingredient Transformation </b> </p>
+<p>‣ Identify intermediates to help models infer implicit information for better
+comprehension </p>
+<p>‣ Understand intermediates to accurately predict the order and dependencies of
+cooking actions for better sequential reasoning. </p>
+        </h3>
+      </div>
+
+
+      <div class="item">
+        <h2 class="title">PizzaCommonSense</h2>
+        <!-- Your image here -->
+        <img src="static/images/img2.jpg" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-          First image description.
+          
         </h2>
       </div>
+
+
       <div class="item">
+        <h2 class="title">Results</h2>
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/img3.jpg" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          
         </h2>
       </div>
+
+
       <div class="item">
+        <h2 class="title">Examples</h2>
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/img4.jpg" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
+          
+        </h2>
+      </div>
+</div>
 </div>
 </div>
 </section>
 <!-- End image carousel -->
 
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
 <!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
+      <h2 class="title">Slides</h2>
 
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/slides.pdf" width="70%" height="550">
           </iframe>
         
-      </div>
     </div>
-  </section>
+  </div>
+
+</div>
+</div>
+</section>
 <!--End paper poster -->
 
 
@@ -283,7 +214,21 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@inproceedings{diallo-etal-2024-pizzacommonsense,
+    title = "{P}izza{C}ommon{S}ense: A Dataset for Commonsense Reasoning about Intermediate Steps in Cooking Recipes",
+    author = "Diallo, Aissatou  and
+      Bikakis, Antonis  and
+      Dickens, Luke  and
+      Hunter, Anthony  and
+      Miller, Rob",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.728",
+}
+</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
